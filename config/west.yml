@@ -2,16 +2,16 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: prospector
+    - name: kien242
       url-base: https://github.com/kien242
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: prospector-zmk-module
-      remote: prospector
-      revision: v2.2.0
-      path: modules/prospector-zmk-module
+    - name: prospector-scanner-zmk-module
+      remote: kien242
+      revision: main  # Hoặc v2.2.0 nếu bạn đã đánh tag version này trên repo
+      path: modules/prospector-scanner-zmk-module
   self:
     path: config
