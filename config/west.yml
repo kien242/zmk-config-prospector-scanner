@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: prospector
-      url-base: https://github.com/t-ogura
+      url-base: https://github.com/kien242
   projects:
     - name: zmk
       remote: zmkfirmware
